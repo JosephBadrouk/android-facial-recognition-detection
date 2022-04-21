@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Coin</string>
+    <string name="firestore_table">CoinBank</string>
+    <string name="firebase_project">coin-b80f5</string>
+    <string name="cognito_firestore">custom:FireStoreID</string>
+    <string name="version">Version: Alpha 0.3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="capture_button_description">Icon to capture the picture</string>
+
+    <!-- Fragment Title Strings -->
+    <string name="login">Login</string>
+    <string name="password_recover">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_autohint">Enter Email</string>
+    <string name="password_autohint">Enter Password</string>
+
+    <!-- Disclaimer Strings -->
+    <string name="disclaimer_title">Terms and Conditions</string>
+    <string name="agree_button">I AGREE</string>
+    <string name="disclaimer_text">Your information is stored by the APP and only used in this app. You agree
+        that you understand this.
+    </string>
+
+    <!-- Sign Up Strings -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="confirmation_code">Verification Code</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="confirm_button">Confirm</string>
+
+    <string name="check_inbox">Please check your inbox to complete registration.</string>
+    <string name="signup_success">Sign-up completed successfully!</string>
+    <string name="email_in_use">This e-mail is already in use.</string>
+    <string name="pass_too_short">The password must be at least 6 characters long.</string>
+    <string name="signup_in_progress">"Sending email"</string>
+
+    <!-- Register Fragment Strings -->
+    <string name="face_image_content_description">Tap this image to be capture your picture</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="finish_button">Finish</string>
+    <string name="ig_handle_hint">Instagram Username (optional)</string>
+    <string name="twitter_handle_hint">Twitter Username (optional)</string>
+    <string name="snapchat_handle_hint">Snapchat Username (optional)</string>
+
+
+    <string-array name="sex_array">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>French</item>
+        <item>Japanese</item>
+        <item>German</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>Canada</item>
+        <item>USA</item>
+        <item>Japan</item>
+        <item>Germany</item>
+    </string-array>
+
+    <string name="first_name_autofill_hint">Type in your first name</string>
+    <string name="last_name_autofill_hint">Type in your last name</string>
+    <string name="age_autofill_hint">Enter your age</string>
+    <string name="confirm_check">I agree the information provided is accurate, and does not depict any other persons</string>
+    <string name ="dob_text">YYYY/MM/DD</string>
+
+    <string name="ig_handle_autofill_hint">Type in your Instagram username (ex. @myinstagramusername)</string>
+    <string name="twitter_handle_autofill_hint">Type in your Twitter Username (ex. @mytwitterusername)</string>
+    <string name="snapchat_handle_autofill_hint">Type in your Snapchat Username (ex. @mysnapchatusername)</string>
+
+
+    <!-- Preview Activity Strings -->
+    <string name="no_face_detected">No faces detected! Position the camera clearly in front of you</string>
+    <string name="one_face_detected">Face Detected! Tap the camera button when ready</string>
+    <string name="multiple_faces_detected">Multiple faces detected! Please only show your face</string>
+    <string name="title_activity_sign_up">Sign in</string>
+    <string name="user_thumbnail_description">A picture the user has taken</string>
+    <string name="capture_complete_button">Complete</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">My Settings</string>
+
+    <string name="start_streaming">Start</string>
+    <string name="stop_streaming">Stop</string>
+
+    <string name="camera_back_facing">Back Facing Camera</string>
+    <string name="camera_front_facing">Front Facing Camera</string>
+    <string name="camera_external">External Camera</string>
+    <string name="camera">Camera %1$d</string>
+
+    <string name="title_fragment_stream">Stream Configuration</string>
+    <string name="title_fragment_stream_detailed_configuration">Stream Detailed Configuration</string>
+
+    <!-- TODO Create a separate XML File to contain AWS and Firebase strings -->
+    <!-- Coin View Model Strings -->
+    <string name="kinesis_video_name">CoinVideoStream</string>
+    <string name="face_collection_name">CoinBank</string>
+
+    <!-- Coin Fragment Strings -->
+
+
+
+</resources>
